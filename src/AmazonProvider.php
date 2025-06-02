@@ -60,7 +60,7 @@ class AmazonProvider extends AbstractProvider implements ProviderInterface
      */
     protected function mapUserToObject(array $user)
     {
-        return (new User())->setRaw($user)->map([
+        return (new User)->setRaw($user)->map([
             'id' => $user['user_id'],
             'nickname' => $user['name'] ?? '',
             'name' => $user['name'] ?? '',
