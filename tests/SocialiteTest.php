@@ -13,21 +13,21 @@ use stdClass;
 
 class SocialiteTest extends TestCase
 {
-    public function tearDown(): void
+    protected function tearDown(): void
     {
         m::close();
 
         parent::tearDown();
     }
 
-    public function testInstance()
+    public function test_instance()
     {
         $provider = Socialite::driver('amazon');
 
         $this->assertInstanceOf(AmazonProvider::class, $provider);
     }
 
-    public function testRedirect()
+    public function test_redirect()
     {
         $request = Request::create('foo');
         $request->setLaravelSession($session = m::mock(Session::class));
@@ -40,7 +40,7 @@ class SocialiteTest extends TestCase
         $this->assertStringStartsWith('https://www.amazon.com/ap/oa', $response->getTargetUrl());
     }
 
-    public function testUser()
+    public function test_user()
     {
         $request = Request::create('foo', 'GET', ['state' => str_repeat('A', 40), 'code' => 'code']);
         $request->setLaravelSession($session = m::mock(Session::class));
