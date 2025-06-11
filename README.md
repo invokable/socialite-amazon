@@ -76,4 +76,3 @@ class AmazonController extends Controller
 
 ## LICENCE
 MIT
-Copyright (c) 2017 kawax
