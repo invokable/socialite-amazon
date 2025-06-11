@@ -2,6 +2,16 @@
 
 https://login.amazon.com/
 
+## Overview
+
+This package provides a Laravel Socialite provider for **Login with Amazon**, allowing you to easily add Amazon OAuth authentication to your Laravel applications. It extends Laravel Socialite with support for Amazon's OAuth 2.0 service, enabling users to log in using their Amazon accounts.
+
+**Key Features:**
+- Seamless integration with Laravel Socialite
+- Support for Amazon OAuth 2.0 authentication flow
+- Customizable OAuth scopes (profile, postal_code, etc.)
+- Retrieves user profile information from Amazon
+
 ## Requirements
 - PHP >= 8.0
 
