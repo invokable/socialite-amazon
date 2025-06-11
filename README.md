@@ -33,6 +33,9 @@ composer require revolution/socialite-amazon
 ```
 
 ### .env
+
+To obtain the required credentials, visit the Amazon Developer Console and create a Login with Amazon application: https://developer.amazon.com/apps-and-games/login-with-amazon
+
 ```
 AMAZON_LOGIN_ID=
 AMAZON_LOGIN_SECRET=
