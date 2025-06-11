@@ -1,7 +1,6 @@
 # Socialite for Login with Amazon
 
 https://developer.amazon.com/apps-and-games/login-with-amazon
-https://login.amazon.com/
 
 ## Overview
 
