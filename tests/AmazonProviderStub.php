@@ -2,14 +2,16 @@
 
 namespace Revolution\Socialite\Amazon\Tests;
 
+use GuzzleHttp\Client;
 use Mockery as m;
+use Mockery\MockInterface;
 use Revolution\Socialite\Amazon\AmazonProvider;
 use stdClass;
 
 class AmazonProviderStub extends AmazonProvider
 {
     /**
-     * @var \GuzzleHttp\Client|\Mockery\MockInterface
+     * @var Client|MockInterface
      */
     public $http;
 
@@ -35,7 +37,7 @@ class AmazonProviderStub extends AmazonProvider
     /**
      * Get a fresh instance of the Guzzle HTTP client.
      *
-     * @return \GuzzleHttp\Client|\Mockery\MockInterface
+     * @return Client|MockInterface
      */
     protected function getHttpClient()
     {
