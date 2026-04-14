@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1776162555">
-  <project timestamp="1776162555" name="Clover Coverage">
+<coverage generated="1776164930">
+  <project timestamp="1776164930" name="Clover Coverage">
     <package name="Revolution\Socialite\Amazon">
-      <file name="/Users/logic/Sites/socialite-amazon/src/AmazonProvider.php">
+      <file name="/home/runner/work/socialite-amazon/socialite-amazon/src/AmazonProvider.php">
         <class name="Revolution\Socialite\Amazon\AmazonProvider" namespace="Revolution\Socialite\Amazon">
           <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="21" coveredelements="21"/>
         </class>
@@ -29,7 +29,7 @@
         <line num="69" type="stmt" count="5"/>
         <metrics loc="72" ncloc="50" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="17" elements="21" coveredelements="21"/>
       </file>
-      <file name="/Users/logic/Sites/socialite-amazon/src/AmazonServiceProvider.php">
+      <file name="/home/runner/work/socialite-amazon/socialite-amazon/src/AmazonServiceProvider.php">
         <class name="Revolution\Socialite\Amazon\AmazonServiceProvider" namespace="Revolution\Socialite\Amazon">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
         </class>
